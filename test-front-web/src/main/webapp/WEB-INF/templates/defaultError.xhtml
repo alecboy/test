@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="#{userManagedBean.language}"
+	xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:ui="http://java.sun.com/jsf/facelets">
+
+<h:head>
+	<f:facet name="first">
+		<meta http-equiv="X-UA-Compatible" content="IE=10" />
+		<meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+		<link rel="shortcut icon"
+			href="#{resource['suitair-lib:img/suitair.ico']}" type="image/x-icon" />
+		<h:outputScript library="suitair-lib" name="js/jsfutil.js" />
+		<title>#{msg.generic_title} - Nexus</title>
+	</f:facet>
+</h:head>
+
+<h:body>
+
+	<ui:insert name="title">Title</ui:insert>
+
+	<p:spacer />
+
+	<ui:insert name="description">Description</ui:insert>
+
+	<p:spacer />
+
+	<ui:insert name="implementation">Implementation</ui:insert>
+
+</h:body>
+
+</html>
