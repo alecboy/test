@@ -5,6 +5,7 @@
 
 	<artifactId>test-repository-impl</artifactId>
 	<packaging>ejb</packaging>
+	<name>test-repository-impl</name>
 
 	<parent>
 		<groupId>com.lanino</groupId>

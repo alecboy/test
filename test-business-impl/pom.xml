@@ -5,6 +5,7 @@
 
 	<artifactId>test-business-impl</artifactId>
 	<packaging>ejb</packaging>
+	<name>test-business-impl</name>
 
 	<parent>
 		<groupId>com.lanino</groupId>

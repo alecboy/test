@@ -5,6 +5,7 @@
 
 	<artifactId>test-business</artifactId>
 	<packaging>ear</packaging>
+	<name>test-business</name>
 
 	<parent>
 		<groupId>com.lanino</groupId>

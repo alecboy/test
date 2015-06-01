@@ -11,7 +11,7 @@
 	<name>test-archive</name>
 
 	<modules>
-		<module>../test-auth2-web</module>
+		<!-- module>../test-auth2-web</module-->
 		<module>../test-business</module>
 		<module>../test-business-def</module>
 		<module>../test-business-impl</module>
